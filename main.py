@@ -5,7 +5,7 @@ def es_cuadrado(n):
     y = math.isqrt(n)
     return y*y == n, y
 
-def metodo_lugones_directo(P, C=0):
+def metodo_razolayer_directo(P, C=0):
     t0 = time.perf_counter()
 
     x_min = math.isqrt(4*P)
@@ -20,7 +20,7 @@ def metodo_lugones_directo(P, C=0):
     r_min = y_min - x_min + C
     r_max = -3 + C   # evita trivial r=-2+C
 
-    print("MÉTODO LUGONES DIRECTO")
+    print("MÉTODO razolayer DIRECTO")
     print("-" * 50)
     print(f"P = {P}")
     print(f"C = {C}")
@@ -75,4 +75,4 @@ def metodo_lugones_directo(P, C=0):
 
 
 P = int("2000000014")
-metodo_lugones_directo(P, C=0)
+metodo_razolayer_directo(P, C=0)
