@@ -1,4 +1,4 @@
-# Lugones Integer Collision Method
+# Razolayer Integer Collision Method
 
 Experimental exploration of compositeness detection through integer collisions between algebraic structures and compressed parameterizations.
 
@@ -276,6 +276,6 @@ Possible future additions:
 
 # Author
 
-Ariel Lugones  
+Razolayer  
 Argentina  
 2026
