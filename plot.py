@@ -1,7 +1,7 @@
 import math
 import matplotlib.pyplot as plt
 
-def metodo_lugones_plot(P, C=0):
+def metodo_razolayer_plot(P, C=0):
 
     x_min = math.isqrt(4*P)
     if x_min*x_min < 4*P:
@@ -65,7 +65,7 @@ def metodo_lugones_plot(P, C=0):
     # ESTADÍSTICAS
     # ========================================================
 
-    print("\nESTADÍSTICAS MÉTODO LUGONES")
+    print("\nESTADÍSTICAS MÉTODO razolayer")
     print("-" * 50)
 
     print(f"P = {P}")
@@ -124,7 +124,7 @@ def metodo_lugones_plot(P, C=0):
 
     plt.xlabel("r")
     plt.ylabel("x")
-    plt.title(f"Método Lugones - Curva para P={P}")
+    plt.title(f"Método razolayer - Curva para P={P}")
 
     plt.grid(True)
     plt.show()
@@ -136,4 +136,4 @@ def metodo_lugones_plot(P, C=0):
 
 P = int("18")
 
-metodo_lugones_plot(P)
+metodo_razolayer_plot(P)
